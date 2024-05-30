@@ -10,6 +10,13 @@ jsonStr, _ := json.Marshal(participants)
 fmt.Println(string(jsonStr))
 ```
 
+**Go Crud Ref**
+- [https://www.honeybadger.io/blog/how-to-create-crud-application-with-golang-and-mysql/](https://www.honeybadger.io/blog/how-to-create-crud-application-with-golang-and-mysql/)
+- [https://techwasti.com/go-language-mysql-rest-api-crud-example](https://techwasti.com/go-language-mysql-rest-api-crud-example)
+- [https://www.golangprograms.com/example-of-golang-crud-using-mysql-from-scratch.html](https://www.golangprograms.com/example-of-golang-crud-using-mysql-from-scratch.html)
+- [https://medium.com/swlh/create-an-crud-rest-api-using-mysql-golang-part-1-65e74bbae283](https://medium.com/swlh/create-an-crud-rest-api-using-mysql-golang-part-1-65e74bbae283)
+- [https://medium.com/@rasoky.maulana/create-a-crud-rest-api-using-mysql-golang-part-2-5af4942abdd2](https://medium.com/@rasoky.maulana/create-a-crud-rest-api-using-mysql-golang-part-2-5af4942abdd2)
+
 ```
 // var participants // json stringify with beautify
 jsonStr, _ := json.MarshalIndent(participants, "", "    ")
